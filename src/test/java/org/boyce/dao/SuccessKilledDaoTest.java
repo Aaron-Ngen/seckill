@@ -14,6 +14,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class SuccessKilledDaoTest {
 
 	@Resource
+	@SuppressWarnings("SpringJavaAutowiringInspection")
 	private SuccessKilledDao successKilledDao;
 
 	@Test

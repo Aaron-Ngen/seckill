@@ -63,9 +63,9 @@ public class Seckill {
         this.endTime = endTime;
     }
 
-	@Override
-	public String toString() {
-		return "Seckill [seckillId=" + seckillId + ", name=" + name + ", number=" + number + ", createTime=" + createTime + ", startTime="
-				+ startTime + ", endTime=" + endTime + "]";
-	}
+    @Override
+    public String toString() {
+        return "Seckill [seckillId=" + seckillId + ", name=" + name + ", number=" + number + ", createTime=" + createTime + ", startTime="
+                + startTime + ", endTime=" + endTime + "]";
+    }
 }
